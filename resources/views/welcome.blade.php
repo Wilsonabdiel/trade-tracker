@@ -23,6 +23,7 @@
         <section class="flex">
 {{--            <div>--}}
 {{--                div>--}}
+
                   <div class="relative sm:flex sm:justify-center sm:items-center min-h-screen bg-dots-darker bg-center bg-gray-100 selection:bg-red-500 selection:text-white">
                       <h2 class="sm:fixed sm:top-0 sm:left-0 p-6 text-left z-10">Our Christian Life And Ministry Meeting Part Assigner</h2>
 
