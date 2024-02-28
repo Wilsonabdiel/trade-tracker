@@ -7,6 +7,15 @@ use Illuminate\Database\Eloquent\Model;
 
 class Trades extends Model
 {
+    protected $fillable = [
+        'entry_point',
+        'exit_point',
+        'stop_loss',
+        'take_profit',
+        'chart',
+        'technicals',
+        'fundamentals'
+    ];
 
     use HasFactory;
 }

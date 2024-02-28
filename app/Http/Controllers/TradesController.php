@@ -9,9 +9,9 @@ class TradesController extends Controller
 {
     public function index()
     {
-        $trades = Trades::orderBy('created_at', 'desc')->get();
+//        $trades = Trades::orderBy('created_at', 'desc')->get();
 
-        return view('dashboard');
+        return view('trades');
     }
 
     public function store(Request $request)
