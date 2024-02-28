@@ -9,6 +9,15 @@
         </h2>
     </x-slot>
 
+    <section class="home">
+        <div>
+            <img src="{{url('../images/chart.png')}}" alt="Hi Image" loading="lazy">
 
+        </div>
+        <div>
+
+        </div>
+
+    </section>
 
 </x-app-layout>
