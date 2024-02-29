@@ -11,7 +11,8 @@
 
     <section class="home">
         <div>
-            <img src="{{url('../images/chart.png')}}" alt="Hi Image" loading="lazy">
+{{--            <img src="{{url('../images/chart.png')}}" alt="Hi Image" loading="lazy"> --}}
+
 
         </div>
         <div>
