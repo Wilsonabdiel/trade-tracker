@@ -38,4 +38,8 @@ class TradesController extends Controller
 
         return redirect()->route('trades.index');
     }
+    public function add ()
+    {
+        return view('trades.add');
+    }
 }

@@ -16,7 +16,13 @@
 
         </div>
         <div>
-
+            <a href="{{route("trades.add")}}">
+            <x-button>
+                Add to Journal
+            </x-button></a>
+{{--            <form method="post" action="">--}}
+{{--                --}}
+{{--            </form>--}}
         </div>
 
     </section>
