@@ -30,3 +30,4 @@ Route::middleware([
 
 Route::get('/trades', [TradesController::class, 'index'])->name('trades.index');
 Route::get('/trades/add', [TradesController::class, 'add'])->name('trades.add');
+Route::get('/trades', [TradesController::class, 'store,'])->name('trades.store');
