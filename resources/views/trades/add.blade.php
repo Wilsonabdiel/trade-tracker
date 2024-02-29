@@ -12,8 +12,7 @@
     <x-form-section
         submit="Submit"
         title="Add Trade"
-        description="One trade at a time to mastery."
-
+        description="One trade at a time to mastery"
     >
         <form method="POST" action="{{ route('trades.store') }}">
             @csrf
@@ -46,5 +45,4 @@
         </form>
 
     </x-form-section>
-
 </x-app-layout>
