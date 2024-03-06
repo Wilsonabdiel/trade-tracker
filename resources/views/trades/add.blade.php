@@ -10,6 +10,7 @@
     </x-slot>
 
     @php
+
         $your_form_actions = [
         // Define your actions here, for example:
         'submit' => [
@@ -34,17 +35,7 @@
         'submit' => 'your_submit_function_name',
         'title' => 'Add Journal Entry',
         'description' => 'Write down your thoughts and experiences.',
-        'form' =>'
-        <div class="grid grid-cols-1 gap-4">
-            <label for="category">Category:</label>
-            <select id="category" name="category" required>
-                <option value="">Select an option...</option>
-                <option value="option1">Option 1</option>
-                <option value="option2">Option 2</option>
-            </select>
-            <label for="message">Message:</label>
-            <textarea id="message" name="message" rows="5" required></textarea>
-        </div>',
+        'form' => $form,
         'actions' => '', // Replace with your specific actions if needed
     ])
 </x-app-layout>
