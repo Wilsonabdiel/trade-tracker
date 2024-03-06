@@ -8,8 +8,22 @@
             {{ __('Add to Journal') }}
         </h2>
     </x-slot>
-
     @php
+        $form = [
+            [
+                'type' => 'input',
+                'name' => 'title',
+                'label' => 'Title',
+                'attributes' => ['class' => 'form-control'],
+            ],
+            [
+                'type' => 'textarea',
+                'name' => 'content',
+                'label' => 'Content',
+                'attributes' => ['class' => 'form-control'],
+            ],
+            // Add more fields as needed
+        ];
 
         $your_form_actions = [
         // Define your actions here, for example:

@@ -10,7 +10,12 @@
         <form wire:submit="{{ $submit }}">
             <div class="px-4 py-5 bg-white sm:p-6 shadow {{ isset($actions) ? 'sm:rounded-tl-md sm:rounded-tr-md' : 'sm:rounded-md' }}">
                 <div class="grid grid-cols-6 gap-6">
-                    {{ $form }}
+                    @if(is_string($form))
+                        {{ htmlspecialchars($form) }}
+                    @else
+                    @endif
+
+
                 </div>
             </div>
 
