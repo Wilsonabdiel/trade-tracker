@@ -36,7 +36,7 @@
         ],
         'cancel' => [
             'label' => 'Cancel',
-            'url' => route('trades.index'), // Replace with your desired URL
+            'url' => route('trades.index'),
             'attributes' => [
                 'type' => 'button',
                 'class' => 'btn btn-secondary',
